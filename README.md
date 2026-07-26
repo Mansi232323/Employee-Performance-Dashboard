@@ -42,12 +42,11 @@ The primary objective of this project is to:
 
 ---
 
-## 🎥 Demo Video
+## 🎥 Project Demo
 
+Watch the complete dashboard demonstration by clicking the image below.
 
-
-[![Employee Performance Dashboard Demo](images/Dashboard_Home.png)](https://drive.google.com/file/d/155vTGDmquZbU7_f6yaYVLCTO7b2dKj4H/view)
-
+[![Watch Demo](images/Dashboard_Home.png)](https://drive.google.com/file/d/155vTGDmquZbU7_f6yaYVLCTO7b2dKj4H/view)
 
 # 📊 Key Performance Indicators
 

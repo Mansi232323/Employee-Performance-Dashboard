@@ -320,10 +320,3 @@ Employee-Performance-Dashboard
 
 ---
 
-# 👨‍💻 Author
-
-**Mansi Kushwaha**
-
-**Data Analytics | Excel | SQL | Power BI | Python | AI & Machine Learning**
-
-If you found this project helpful, consider giving it a ⭐ on GitHub.

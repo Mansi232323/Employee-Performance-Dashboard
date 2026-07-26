@@ -1,406 +1,362 @@
-# 📊 Employee Performance Dashboard (Excel VBA Project)
-
-## 📌 Project Overview
-
-The **Employee Performance Dashboard** is a dynamic and interactive Microsoft Excel dashboard developed using **Excel VBA, Pivot Tables, Pivot Charts, Slicers, and Macros**. The dashboard is designed to analyze employee productivity, customer service performance, attendance, and operational efficiency in a call center environment.
-
-It enables managers and decision-makers to monitor key performance indicators (KPIs), compare employee performance, and make data-driven decisions through an intuitive and visually appealing interface.
+For GitHub, a professional README should look like a project showcase rather than just documentation. Since you want to include **8 images**, you can structure it like a premium data analytics portfolio project.
 
 ---
 
-# 🎯 Objective
+# 📊 Employee Performance Dashboard
+
+<p align="center">
+  <img src="Images/Dashboard_Home.png" width="100%">
+</p>
+
+<h3 align="center">
+Workforce Analytics | Productivity Insights | Customer Service Performance
+</h3>
+
+<p align="center">
+An interactive Microsoft Excel dashboard built to analyze employee productivity, workforce efficiency, customer engagement, and operational performance using advanced Excel features including Pivot Tables, Pivot Charts, VBA Automation, Dynamic Slicers, and KPI Cards.
+</p>
+
+---
+
+# 📖 Table of Contents
+
+* Overview
+* Project Objective
+* Dashboard Preview
+* Key Performance Indicators
+* Dashboard Features
+* Dashboard Pages
+* Interactive Filters
+* Dashboard Insights
+* Business Value
+* Tools & Technologies
+* Excel Skills Demonstrated
+* Dashboard Workflow
+* Project Structure
+* Future Improvements
+* Author
+
+---
+
+# 📌 Overview
+
+Organizations generate massive volumes of employee performance data every day. However, transforming raw operational data into actionable business insights remains a challenge.
+
+The **Employee Performance Dashboard** was developed to solve this problem by providing HR teams, operations managers, and business leaders with a centralized reporting solution that enables real-time monitoring of employee productivity and customer service performance.
+
+The dashboard consolidates multiple performance metrics into a single executive view, making it easier to identify trends, compare employees, monitor operational efficiency, and support informed decision-making.
+
+Unlike static reports, this dashboard offers fully interactive visualizations powered by slicers and automated Pivot Charts, allowing users to drill down into employee-level performance instantly.
+
+---
+
+# 🎯 Project Objective
 
 The primary objective of this project is to:
 
-* Monitor employee productivity in real time.
-* Track customer service performance.
-* Analyze work efficiency and attendance.
-* Compare employees across multiple KPIs.
-* Provide interactive filtering for detailed analysis.
-* Reduce manual reporting efforts.
-* Support management with performance-based insights.
+* Monitor employee productivity
+* Evaluate workforce efficiency
+* Track customer service performance
+* Measure operational KPIs
+* Compare employee performance
+* Support HR decision-making
+* Improve business productivity
+* Create executive-level performance reports
 
 ---
 
-# 🛠 Technologies Used
+# 🖥 Dashboard Preview
 
-| Technology             | Purpose                  |
-| ---------------------- | ------------------------ |
-| Microsoft Excel        | Dashboard Development    |
-| Excel VBA              | Automation & Navigation  |
-| Pivot Tables           | Data Aggregation         |
-| Pivot Charts           | Visualization            |
-| Slicers                | Interactive Filtering    |
-| Named Ranges           | Dynamic Data Handling    |
-| Conditional Formatting | Performance Highlighting |
-| Excel Form Controls    | User Interaction         |
+## Complete Dashboard
+
+<p align="center">
+<img src="Images/Dashboard_Home.png" width="100%">
+</p>
+
+The dashboard provides a centralized overview of all critical workforce KPIs through interactive charts, KPI cards, and dynamic filters.
 
 ---
 
-# 📂 Dashboard Features
+# 📊 Key Performance Indicators
 
-The dashboard consists of multiple analytical sections that provide a comprehensive overview of employee performance.
+The dashboard tracks the following business metrics:
 
----
-
-# 1. Working Hours Analysis
-
-### Purpose
-
-Analyzes the total working hours of employees.
-
-### Displays
-
-* Employee Name
-* Total Working Hours
-* Bar Chart Visualization
-
-### Benefits
-
-* Identifies employees with maximum and minimum working hours.
-* Detects overtime or underutilization.
-* Supports workforce planning.
+| KPI                   | Description                                |
+| --------------------- | ------------------------------------------ |
+| ⏱ Working Hours       | Total working hours completed by employees |
+| ⚡ Work Efficiency     | Productive working time of employees       |
+| 📞 Attended Calls     | Number of customer calls handled           |
+| 👨‍💼 Total Employees | Total employees under selected filters     |
+| 👥 Active Customers   | Customers actively managed                 |
+| 🏙 City               | Regional employee performance              |
 
 ---
 
-# 2. Work Efficiency Analysis
+# 📈 Dashboard Features
 
-### Purpose
+### ✔ Working Hours Analysis
 
-Measures productive working time for each employee.
+Monitor employee working hours using interactive bar charts and ranking tables.
 
-### Displays
+<p align="center">
+<img src="Images/Working_Hours.png" width="85%">
+</p>
 
-* Employee Name
-* Total Productive Hours
-* Horizontal Bar Chart
+Features
 
-### Benefits
-
-* Evaluates employee efficiency.
-* Identifies highly productive employees.
-* Measures operational effectiveness.
-
----
-
-# 3. Attended Calls Analysis
-
-### Purpose
-
-Tracks the number of customer calls handled by each employee.
-
-### Displays
-
-* Employee Name
-* Total Calls Attended
-* Column Chart
-
-### Benefits
-
-* Measures workload distribution.
-* Identifies top-performing call agents.
-* Helps balance employee workload.
+* Employee-wise comparison
+* Dynamic ranking
+* Highest & lowest performers
+* Interactive filtering
 
 ---
 
-# 4. Active Customers Analysis
+### ✔ Work Efficiency Analysis
 
-### Purpose
+Measure productive working time to evaluate employee efficiency.
 
-Measures customer engagement percentage.
+<p align="center">
+<img src="Images/Work_Efficiency.png" width="85%">
+</p>
 
-### Displays
+Features
 
-* Employee Name
-* Average Active Customer Percentage
-* Horizontal Bar Chart
-
-### Benefits
-
-* Identifies employees handling active customers effectively.
-* Measures customer interaction quality.
-* Tracks engagement performance.
+* Productive hours tracking
+* Performance comparison
+* Efficiency ranking
+* Dynamic updates
 
 ---
 
-# 📈 Key Performance Indicators (KPIs)
+### ✔ Attended Calls Analysis
 
-The dashboard highlights important metrics at a glance.
+Analyze customer interaction volume handled by employees.
 
-## Working Hours
+<p align="center">
+<img src="Images/Attended_Calls.png" width="85%">
+</p>
 
-Displays:
+Features
 
-* Total Working Hours
-
-Example
-
-```
-19:04:09
-```
-
----
-
-## Work Efficiency
-
-Displays:
-
-* Total Productive Time
-
-Example
-
-```
-02:36:10
-```
+* Call volume tracking
+* Employee comparison
+* Performance distribution
+* Top performer identification
 
 ---
 
-## Attended Calls
+### ✔ Active Customers Analysis
 
-Displays:
+Evaluate employee contribution toward active customer engagement.
 
-* Total Calls Handled
+<p align="center">
+<img src="Images/Active_Customers.png" width="85%">
+</p>
 
-Example
+Features
 
-```
-9404
-```
-
----
-
-## Total Employees
-
-Displays:
-
-```
-149 Employees
-```
+* Customer engagement percentage
+* Employee contribution
+* Comparative visualization
+* Performance benchmarking
 
 ---
 
-## Selected City
+### ✔ KPI Cards
 
-Displays currently selected city using slicers.
+Executive summary cards display the most important business metrics.
 
-Example
+<p align="center">
+<img src="Images/KPI_Cards.png" width="85%">
+</p>
 
-```
-Delhi
-```
+Includes:
 
----
-
-## Active Customers
-
-Displays
-
-```
-50 Active Customers
-```
-
----
-
-# 🎛 Interactive Filters (Slicers)
-
-The dashboard includes several slicers that allow users to perform interactive analysis.
-
-## Employee Name
-
-Filter dashboard based on a specific employee.
-
----
-
-## City
-
-Analyze employee performance by city.
-
-Available cities include:
-
-* Delhi
-* Hyderabad
-* Mumbai
-
----
-
-## Attended Calls
-
-Filter employees based on call count.
-
----
-
-## Active Customers
-
-Filter based on customer engagement percentage.
-
----
-
-## Break Time
-
-Analyze employee break duration.
-
----
-
-## Work Efficiency
-
-Filter employees according to productive hours.
-
----
-
-# 📊 Charts Used
-
-The dashboard contains multiple chart types for better visualization.
-
-| Chart                | Purpose          |
-| -------------------- | ---------------- |
-| Column Chart         | Working Hours    |
-| Horizontal Bar Chart | Work Efficiency  |
-| Column Chart         | Attended Calls   |
-| Horizontal Bar Chart | Active Customers |
-
-These charts automatically update based on slicer selections.
-
----
-
-# 🔄 Dashboard Functionality
-
-The dashboard is fully interactive.
-
-### Features
-
-* Dynamic Pivot Tables
-* Dynamic Pivot Charts
-* Automatic KPI Updates
-* Real-Time Filtering
-* VBA Navigation Buttons
-* Interactive Slicers
-* User-Friendly Layout
-* One-Click Dashboard Analysis
-
----
-
-# 📁 Dataset Information
-
-The project uses employee performance data containing fields such as:
-
-* Employee Name
-* Employee ID
-* City
 * Working Hours
 * Work Efficiency
-* Total Break Taken
-* Calls Attended
-* Active Customer Percentage
-* Date
-* Shift Details
+* Attended Calls
+* Total Employees
+* Active Customers
+* Selected City
 
 ---
 
-# 📌 Business Insights Generated
+### ✔ Interactive Slicers
 
-Using this dashboard, managers can answer questions like:
+The dashboard includes dynamic slicers for instant report customization.
 
-* Which employee worked the most hours?
-* Who handled the highest number of calls?
-* Which city has the highest-performing employees?
-* Who has the highest work efficiency?
-* Which employees have excessive break time?
+<p align="center">
+<img src="Images/Slicers.png" width="85%">
+</p>
+
+Available Filters
+
+* Employee Name
+* City
+* Attended Calls
+* Active Customers
+* Work Efficiency
+* Break Time
+
+---
+
+### ✔ Dynamic Charts
+
+All charts update automatically based on user selections.
+
+<p align="center">
+<img src="Images/Charts.png" width="85%">
+</p>
+
+Visualization Types
+
+* Bar Charts
+* Horizontal Charts
+* KPI Cards
+* Ranking Tables
+* Pivot Charts
+
+---
+
+### ✔ Executive Dashboard
+
+The final dashboard combines all insights into one executive reporting page.
+
+<p align="center">
+<img src="Images/Executive_View.png" width="100%">
+</p>
+
+---
+
+# 💡 Dashboard Insights
+
+Using this dashboard, management can quickly answer questions such as:
+
+* Which employees worked the longest hours?
+* Who achieved the highest work efficiency?
+* Which employees attended the maximum customer calls?
+* Which city has the highest workforce productivity?
 * How many active customers are currently managed?
 * Which employees require performance improvement?
-* What is the workload distribution across teams?
+* What operational trends exist across departments?
 
 ---
 
-# 🚀 Business Benefits
+# 💼 Business Value
 
-* Reduces manual reporting effort.
-* Improves workforce monitoring.
-* Supports performance-based evaluation.
-* Enables faster managerial decision-making.
-* Enhances productivity analysis.
-* Simplifies large datasets into meaningful insights.
-* Provides a centralized performance monitoring solution.
+This dashboard can be used by:
+
+* Human Resources
+* Operations Teams
+* Customer Support Managers
+* Workforce Planning Teams
+* Business Analysts
+* Executive Leadership
+* Performance Management Teams
 
 ---
 
-# 💡 Skills Demonstrated
+# 🛠 Tools & Technologies
 
-This project demonstrates proficiency in:
+| Tool                   | Purpose                  |
+| ---------------------- | ------------------------ |
+| Microsoft Excel        | Dashboard Development    |
+| Pivot Tables           | Data Aggregation         |
+| Pivot Charts           | Data Visualization       |
+| VBA                    | Dashboard Automation     |
+| Slicers                | Interactive Filtering    |
+| Conditional Formatting | Performance Highlighting |
+| Excel Formulas         | KPI Calculations         |
+| Data Validation        | User Input Control       |
 
-* Microsoft Excel
-* Excel VBA Programming
-* Dashboard Design
-* Data Cleaning
+---
+
+# 📚 Excel Skills Demonstrated
+
+* Advanced Excel
 * Pivot Tables
 * Pivot Charts
+* Dashboard Design
+* Data Cleaning
+* Dynamic Charts
+* Slicers
+* VBA Automation
+* KPI Development
+* HR Analytics
 * Data Visualization
-* KPI Design
-* Interactive Reporting
-* Business Analytics
-* Workforce Analytics
-* Customer Service Analytics
-* Excel Automation
-* Slicer Integration
-* Performance Monitoring
+* Business Reporting
 
 ---
 
-# 📷 Dashboard Preview
+# 🔄 Dashboard Workflow
 
-**Employee Performance Dashboard**
-
-![Employee Performance Dashboard](Dashboard.png)
-
-**Key Modules:**
-
-* Working Hours Analysis
-* Work Efficiency Analysis
-* Attended Calls Analysis
-* Active Customers Analysis
-* KPI Summary Cards
-* Interactive Employee & City Filters
-* Dynamic Charts and Pivot Reports
-
----
-
-# 📋 How to Use
-
-1. Open the Excel workbook.
-2. Click **Enable Editing** and **Enable Content (Macros)** if prompted.
-3. Navigate to the **Dashboard** sheet.
-4. Use the slicers to filter by:
-
-   * Employee
-   * City
-   * Calls Attended
-   * Work Efficiency
-   * Break Time
-5. Observe how charts and KPI cards update automatically.
-6. Use the insights to compare employee performance and operational efficiency.
+```
+Raw Employee Data
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+Pivot Tables
+        │
+        ▼
+Pivot Charts
+        │
+        ▼
+Dynamic Slicers
+        │
+        ▼
+KPI Calculations
+        │
+        ▼
+Interactive Dashboard
+```
 
 ---
 
-# 📌 Future Enhancements
+# 📂 Project Structure
 
-* Monthly and yearly trend analysis
-* Department-wise performance comparison
-* Employee ranking system
-* Target vs. actual performance tracking
-* Attendance heatmaps
+```
+Employee-Performance-Dashboard
+│
+├── Dashboard.xlsx
+├── README.md
+│
+├── Images
+│   ├── Dashboard_Home.png
+│   ├── Working_Hours.png
+│   ├── Work_Efficiency.png
+│   ├── Attended_Calls.png
+│   ├── Active_Customers.png
+│   ├── KPI_Cards.png
+│   ├── Slicers.png
+│   └── Executive_View.png
+│
+└── Dataset
+    └── Employee_Data.xlsx
+```
+
+---
+
+# 🚀 Future Enhancements
+
+* Department-wise analysis
+* Monthly trend reporting
+* Attendance analytics
+* Employee attrition insights
+* Salary analysis
+* Performance forecasting
+* Power Query integration
+* Power BI version
 * Automated PDF report generation
-* Email report automation using VBA
-* Power Query integration for automated data refresh
-* Power BI version of the dashboard
-* Predictive analytics for workforce planning
+* Email report automation
 
 ---
 
-# 👩‍💻 Author
+# 👨‍💻 Author
 
 **Mansi Kushwaha**
 
-**Project Type:** Microsoft Excel Dashboard with VBA Automation
-**Domain:** Workforce Analytics | Call Center Performance | Business Intelligence | HR Analytics
+**Data Analytics | Excel | SQL | Power BI | Python | AI & Machine Learning**
 
----
-
+If you found this project helpful, consider giving it a ⭐ on GitHub.

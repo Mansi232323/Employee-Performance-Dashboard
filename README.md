@@ -42,17 +42,12 @@ The primary objective of this project is to:
 
 ---
 
-# 🖥 Dashboard Preview
+## 🎥 Demo Video
 
-## Complete Dashboard
 
-<p align="center">
-<img src="Images/Dashboard_Home.png" width="100%">
-</p>
 
-The dashboard provides a centralized overview of all critical workforce KPIs through interactive charts, KPI cards, and dynamic filters.
+[![Employee Performance Dashboard Demo](images/Dashboard_Home.png)](https://github.com/user-attachments/assets/https://drive.google.com/file/d/155vTGDmquZbU7_f6yaYVLCTO7b2dKj4H/view)
 
----
 
 # 📊 Key Performance Indicators
 

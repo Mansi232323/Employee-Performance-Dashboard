@@ -1,6 +1,3 @@
-For GitHub, a professional README should look like a project showcase rather than just documentation. Since you want to include **8 images**, you can structure it like a premium data analytics portfolio project.
-
----
 
 # 📊 Employee Performance Dashboard
 

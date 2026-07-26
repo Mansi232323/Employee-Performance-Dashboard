@@ -195,16 +195,6 @@ Visualization Types
 
 ---
 
-### ✔ Executive Dashboard
-
-The final dashboard combines all insights into one executive reporting page.
-
-<p align="center">
-<img src="Images/Executive_View.png" width="100%">
-</p>
-
----
-
 # 💡 Dashboard Insights
 
 Using this dashboard, management can quickly answer questions such as:

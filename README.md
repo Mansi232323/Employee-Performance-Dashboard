@@ -349,6 +349,8 @@ This project demonstrates proficiency in:
 
 **Employee Performance Dashboard**
 
+![Employee Performance Dashboard](Dashboard.png)
+
 **Key Modules:**
 
 * Working Hours Analysis

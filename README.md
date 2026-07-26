@@ -46,7 +46,7 @@ The primary objective of this project is to:
 
 
 
-[![Employee Performance Dashboard Demo](images/Dashboard_Home.png)](https://github.com/user-attachments/assets/https://drive.google.com/file/d/155vTGDmquZbU7_f6yaYVLCTO7b2dKj4H/view)
+[![Employee Performance Dashboard Demo](images/Dashboard_Home.png)](https://drive.google.com/file/d/155vTGDmquZbU7_f6yaYVLCTO7b2dKj4H/view)
 
 
 # 📊 Key Performance Indicators

@@ -6,30 +6,6 @@
 
 ---
 
-# 📖 Table of Contents
-
-* Project Overview
-* Problem Statement
-* Objective
-* Dashboard Features
-* Key Performance Indicators (KPIs)
-* Dashboard Components
-* Interactive Filters
-* Dataset Description
-* Excel Skills Demonstrated
-* Business Insights
-* Business Value
-* Dashboard Workflow
-* Tools & Technologies
-* Formulas & Excel Functions Used
-* Challenges Faced
-* Future Improvements
-* Learning Outcomes
-* Folder Structure
-* How to Use
-* Author
-
----
 
 # 📌 Project Overview
 

@@ -15,26 +15,6 @@ An interactive Microsoft Excel dashboard built to analyze employee productivity,
 
 ---
 
-# 📖 Table of Contents
-
-* Overview
-* Project Objective
-* Dashboard Preview
-* Key Performance Indicators
-* Dashboard Features
-* Dashboard Pages
-* Interactive Filters
-* Dashboard Insights
-* Business Value
-* Tools & Technologies
-* Excel Skills Demonstrated
-* Dashboard Workflow
-* Project Structure
-* Future Improvements
-* Author
-
----
-
 # 📌 Overview
 
 Organizations generate massive volumes of employee performance data every day. However, transforming raw operational data into actionable business insights remains a challenge.
